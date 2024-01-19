@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="test commit 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/day5/FonteLeggibile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Periodicita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Rivista.java" afterDir="false" />
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Model complete, starting implementation of exceptions management and logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/it.epicode/week2/day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -47,6 +46,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src",
     "onboarding.tips.debug.path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -54,7 +54,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\java\week2\day5" />
     </key>
   </component>
@@ -90,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705650582628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Model complete, starting implementation of exceptions management and logging">
+      <option name="closed" value="true" />
+      <created>1705670143108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705670143108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="test commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit 2" />
+    <MESSAGE value="Model complete, starting implementation of exceptions management and logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model complete, starting implementation of exceptions management and logging" />
   </component>
 </project>

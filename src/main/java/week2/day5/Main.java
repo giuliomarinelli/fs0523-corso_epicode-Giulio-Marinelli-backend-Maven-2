@@ -2,17 +2,19 @@ package week2.day5;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.NoSuchElementException;
+
 public class Main {
     public static void main(String[] args) {
-        Archivio.aggiungi(new Libro("Il nome della rosa",
-                1970, 600, "Umberto Eco", "Giallo storico"));
-
-        Archivio.aggiungi(new Rivista("Gente", 1980, 50, Periodicita.SETTIMANALE));
-
-
-        Archivio.aggiungi(new Libro("Il pendolo di Foucault", 1980,
-                600, "Umberto Eco", "Filosofico"));
-
+//        Archivio.aggiungi(new Libro("Il nome della rosa",
+//                1970, 600, "Umberto Eco", "Giallo storico"));
+//
+//        Archivio.aggiungi(new Rivista("Gente", 1980, 50, Periodicita.SETTIMANALE));
+//
+//
+//        Archivio.aggiungi(new Libro("Il pendolo di Foucault", 1980,
+//                600, "Umberto Eco", "Filosofico"));
+//
 //        System.out.println(Archivio.ricercaPerAutore("Umberto Eco"));
 //        System.out.println();
 //        System.out.println(Archivio.ricercaPerAnnoDiPubblicazione(1980));
@@ -31,10 +33,22 @@ public class Main {
 //                Periodicita.MENSILE));
 //        Archivio.salvaSuDisco();
         Archivio.caricaDaDisco();
-        Archivio.rimuovi("969-28-06242-57-0");
-        Archivio.rimuovi("104-31-81893-35-8");
+        System.out.println("LA MIA BIBLIOTECA\n");
         Archivio.visualizzaArchivio();
+        System.out.println();
+        System.out.println(Archivio.ricercaPerISBN("213-44-58964-65-3"));
+        Archivio.rimuovi("213-44-58964-65-3"); // Rimuovo Profumo
+        Archivio.rimuovi("377-26-49591-67-5"); // Rimuovo Quattroruote
+        System.out.println("Rimossi Profumo (libro) e Quattroruote (rivista)");
+        Archivio.visualizzaArchivio();
+        System.out.println("I TITOLI DEI MIEI LIBRI");
         Archivio.visualizzaTitoli();
+        // catturo l'eccezione che viene lanciata quando cerco un elemento che non esiste per ISBN
+        try {
+            Archivio.ricercaPerISBN("213-44-58964-65-3");
+        } catch (NoSuchElementException e) {
+            System.out.println("Elemento inesistente");
+        }
 
 
 
