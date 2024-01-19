@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Model complete, starting implementation of exceptions management and logging">
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" afterDir="false" />
     </list>
@@ -58,6 +57,8 @@
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main" />
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\java\week2\day5" />
     </key>
@@ -102,13 +103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705670143108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve">
+      <option name="closed" value="true" />
+      <created>1705678441238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705678441238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="test commit 2" />
     <MESSAGE value="Model complete, starting implementation of exceptions management and logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model complete, starting implementation of exceptions management and logging" />
+    <MESSAGE value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
   </component>
 </project>

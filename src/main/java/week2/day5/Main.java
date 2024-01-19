@@ -33,22 +33,33 @@ public class Main {
 //                Periodicita.MENSILE));
 //        Archivio.salvaSuDisco();
         Archivio.caricaDaDisco();
-        System.out.println("LA MIA BIBLIOTECA\n");
+        System.out.println("\nLA MIA BIBLIOTECA\n");
         Archivio.visualizzaArchivio();
         System.out.println();
         System.out.println(Archivio.ricercaPerISBN("213-44-58964-65-3"));
+        System.out.println();
         Archivio.rimuovi("213-44-58964-65-3"); // Rimuovo Profumo
         Archivio.rimuovi("377-26-49591-67-5"); // Rimuovo Quattroruote
         System.out.println("Rimossi Profumo (libro) e Quattroruote (rivista)");
+        System.out.println();
         Archivio.visualizzaArchivio();
+        System.out.println();
         System.out.println("I TITOLI DEI MIEI LIBRI");
+        System.out.println();
         Archivio.visualizzaTitoli();
-        // catturo l'eccezione che viene lanciata quando cerco un elemento che non esiste per ISBN
+        System.out.println();
+        // catturo l'eccezione che viene lanciata quando cerco per ISBN un elemento che non esiste --> Questo è l'unico metodo di ricerca che genera un'eccezione in assenza di match. Gli altri restituiscono collection vuote.
         try {
             Archivio.ricercaPerISBN("213-44-58964-65-3");
         } catch (NoSuchElementException e) {
             System.out.println("Elemento inesistente");
         }
+        System.out.println();
+        System.out.println("Ricerca per autore: " + Archivio.ricercaPerAutore("Umberto Eco"));
+        System.out.println();
+        System.out.println("Ricerca per anno: " + Archivio.ricercaPerAnnoDiPubblicazione(2022));
+        System.out.println();
+        System.out.println("Cerco La locandiera per titolo (che non c'è): " + Archivio.ricercaPerTitolo("La locandiera"));
 
 
 

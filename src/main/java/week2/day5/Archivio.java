@@ -15,7 +15,7 @@ public class Archivio {
 
     private static final Logger logger
             = LoggerFactory.getLogger("Archivio");
-    public static Set<FonteLeggibile> biblioteca = new HashSet<>();
+    private static Set<FonteLeggibile> biblioteca = new HashSet<>();
 
     public static void aggiungi(FonteLeggibile f) {
         biblioteca.add(f);
@@ -27,7 +27,7 @@ public class Archivio {
         logger.info("Rimosso libro o rivista ISBN " + ISBN);
     }
 
-    public static FonteLeggibile ricercaPerISBN(String ISBN) {
+    public static FonteLeggibile ricercaPerISBN(String ISBN) throws NoSuchElementException {
         List<FonteLeggibile> contieneElementoTrovato = biblioteca.stream().filter(fl -> fl.getISBN().equals(ISBN))
                 .collect(Collectors.toCollection(ArrayList<FonteLeggibile>::new));
         logger.info("Cercato libro o rivista per ISBN: " + ISBN);
@@ -104,7 +104,7 @@ public class Archivio {
     }
 
     public static void salvaSuDisco() {
-        File file = new File("archivio/archivio.txt");
+        File file = new File("src/main/archivio/archivio.txt");
         String content = biblioteca.stream().map(Archivio::codificaFonteLeggibile)
                 .collect(Collectors.joining("\n"));
         try {
@@ -117,7 +117,7 @@ public class Archivio {
     }
 
     public static void caricaDaDisco() {
-        File file = new File("archivio/archivio.txt");
+        File file = new File("src/main/archivio/archivio.txt");
         try {
             biblioteca.clear();
             String content = FileUtils.readFileToString(file, Charset.defaultCharset());
