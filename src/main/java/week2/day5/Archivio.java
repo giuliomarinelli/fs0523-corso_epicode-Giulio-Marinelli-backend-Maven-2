@@ -22,7 +22,7 @@ public class Archivio {
         logger.info("Aggiunto nuovo libro o rivista ISBN " + f.getISBN());
     }
 
-    public static void rimuovi(String ISBN) {
+    public static void rimuovi(String ISBN) throws NoSuchElementException {
         biblioteca.remove(ricercaPerISBN(ISBN));
         logger.info("Rimosso libro o rivista ISBN " + ISBN);
     }

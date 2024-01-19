@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Another Fix">
-      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/FonteLeggibile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/FonteLeggibile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src",
+    "last_opened_file_path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/resources",
     "onboarding.tips.debug.path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -52,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\resources" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705679990824</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Another Fix">
+      <option name="closed" value="true" />
+      <created>1705680073132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705680073132</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
