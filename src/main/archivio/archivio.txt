@@ -1,0 +1,8 @@
+L|400-15-33295-67-9|Il pendolo di Foucault|1980|600|Umberto Eco|Filosofico
+L|281-05-42165-14-1|Il nome della rosa|1970|600|Umberto Eco|Giallo storico
+L|213-44-58964-65-3|Profumo|2000|400|Patrick Suskind|Thriller
+R|639-36-74097-30-2|Gente|1980|50|SETTIMANALE
+L|625-48-14321-37-6|Ti prendo e ti porto via|2005|350|Niccolò Ammaniti|Giallo
+L|484-82-78540-03-0|Anfitrione|-400|100|Plauto|Commedia
+R|377-26-49591-67-5|Quattroruote|2022|30|MENSILE
+R|975-56-31543-54-2|Moto2|2022|30|SEMESTRALE
