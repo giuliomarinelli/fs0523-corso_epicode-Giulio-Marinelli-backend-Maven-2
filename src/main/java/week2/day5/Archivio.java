@@ -84,7 +84,7 @@ public class Archivio {
     }
 
     private static String codificaFonteLeggibile(FonteLeggibile fl) {
-        try {
+
             String identificatore = "";
             if (fl instanceof Libro) identificatore = "L";
             if (fl instanceof Rivista) identificatore = "R";
@@ -95,12 +95,7 @@ public class Archivio {
             if (fl instanceof Rivista) codifica += "|" + ((Rivista) fl).getPeriodicita();
             logger.info("Codificato oggetto per salvataggio su file");
             return codifica;
-        } catch (NullPointerException e) {
-            System.out.println("Si è verificato un errore. Non posso codificare i dati per" +
-                    " salvarli perché si è verificata una perdita di dati");
-            logger.error("Errore nella codifica degli oggetti per salvarli su file");
-            return "";
-        }
+
     }
 
     public static void salvaSuDisco() {

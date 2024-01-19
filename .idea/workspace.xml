@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705678441238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1705679219553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705679219553</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1705679261725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705679261725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +133,7 @@
     <MESSAGE value="test commit 2" />
     <MESSAGE value="Model complete, starting implementation of exceptions management and logging" />
     <MESSAGE value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
 </project>
