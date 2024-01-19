@@ -38,8 +38,12 @@ public class Main {
         System.out.println();
         System.out.println(Archivio.ricercaPerISBN("213-44-58964-65-3"));
         System.out.println();
-        Archivio.rimuovi("213-44-58964-65-3"); // Rimuovo Profumo
-        Archivio.rimuovi("377-26-49591-67-5"); // Rimuovo Quattroruote
+        try { // rimuovi() chiama a sua volta ricerca per ISBN che può generare una NoSuchElementException
+            Archivio.rimuovi("213-44-58964-65-3"); // Rimuovo Profumo
+            Archivio.rimuovi("377-26-49591-67-5"); // Rimuovo Quattroruote
+        } catch (NoSuchElementException e) {
+            System.out.println("Impossibile cancellare un elemento che non esiste");
+        }
         System.out.println("Rimossi Profumo (libro) e Quattroruote (rivista)");
         System.out.println();
         Archivio.visualizzaArchivio();

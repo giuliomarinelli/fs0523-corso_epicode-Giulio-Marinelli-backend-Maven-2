@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Another Fix">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Persisting no providers found for SLF4J">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705680073132</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Persisting no providers found for SLF4J">
+      <option name="closed" value="true" />
+      <created>1705683504525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705683504525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +161,7 @@
     <MESSAGE value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Another Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another Fix" />
+    <MESSAGE value="Persisting no providers found for SLF4J" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persisting no providers found for SLF4J" />
   </component>
 </project>
