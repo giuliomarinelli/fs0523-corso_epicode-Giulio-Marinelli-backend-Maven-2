@@ -9,7 +9,7 @@ public abstract class FonteLeggibile {
     private int annoDiPubblicazione;
     private int numeroPagine;
 
-    private static List<String> ISBNGenerati = new ArrayList<>();
+
     public FonteLeggibile(String ISBN, String titolo, int annoDiPubblicazione, int numeroPagine) {
         this.ISBN = ISBN;
         this.titolo = titolo;

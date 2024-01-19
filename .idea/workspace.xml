@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Fix">
-      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/Archivio.java" afterDir="false" />
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="Another Fix">
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/day5/FonteLeggibile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/day5/FonteLeggibile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705679261725</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Another Fix">
+      <option name="closed" value="true" />
+      <created>1705679990823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705679990824</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,6 +142,7 @@
     <MESSAGE value="Model complete, starting implementation of exceptions management and logging" />
     <MESSAGE value="Completed. Logger implemented but there is a Maven-managed config bug I'm not able to solve" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Another Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another Fix" />
   </component>
 </project>
