@@ -1,0 +1,25 @@
+2024-01-22 09:11:32,760 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,761 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 400-15-33295-67-9
+2024-01-22 09:11:32,761 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,761 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 281-05-42165-14-1
+2024-01-22 09:11:32,761 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,761 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 213-44-58964-65-3
+2024-01-22 09:11:32,762 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,762 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 639-36-74097-30-2
+2024-01-22 09:11:32,762 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,762 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 625-48-14321-37-6
+2024-01-22 09:11:32,762 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,762 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 484-82-78540-03-0
+2024-01-22 09:11:32,762 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,762 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 377-26-49591-67-5
+2024-01-22 09:11:32,762 INFO main Archivio - Generata una nuova istanza di Libro o Rivista da una riga del file
+2024-01-22 09:11:32,762 INFO main Archivio - Aggiunto nuovo libro o rivista ISBN 975-56-31543-54-2
+2024-01-22 09:11:32,762 INFO main Archivio - Effettuata lettura da archivio/archivio.txt
+2024-01-22 09:11:32,785 INFO main Archivio - Cercato libro o rivista per ISBN: 213-44-58964-65-3
+2024-01-22 09:11:32,786 INFO main Archivio - Cercato libro o rivista per ISBN: 213-44-58964-65-3
+2024-01-22 09:11:32,786 INFO main Archivio - Rimosso libro o rivista ISBN 213-44-58964-65-3
+2024-01-22 09:11:32,786 INFO main Archivio - Cercato libro o rivista per ISBN: 377-26-49591-67-5
+2024-01-22 09:11:32,786 INFO main Archivio - Rimosso libro o rivista ISBN 377-26-49591-67-5
+2024-01-22 09:11:32,790 INFO main Archivio - Cercato libro o rivista per ISBN: 213-44-58964-65-3
+2024-01-22 09:11:32,790 INFO main Archivio - Effettuata ricerca per autore: Umberto Eco
+2024-01-22 09:11:32,796 INFO main Archivio - Effettuata ricerca per anno di pubblicazione: 2022
