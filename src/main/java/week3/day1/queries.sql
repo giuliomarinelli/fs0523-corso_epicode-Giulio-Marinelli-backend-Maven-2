@@ -27,5 +27,5 @@ SELECT EXTRACT (YEAR FROM data_fattura), COUNT(*), SUM(importo) FROM fatture GRO
 SELECT EXTRACT(YEAR FROM data_fattura) FROM fatture GROUP BY EXTRACT(YEAR FROM data_fattura), tipologia HAVING COUNT(*) > 2 AND tipologia = 'A';
 
 -- Estrarre il totale degli importi delle fatture divisi per residenza dei clienti
-SELECT COUNT(f.importo), c.regione_residenza FROM fatture f INNER JOIN
+SELECT SUM(f.importo), c.regione_residenza FROM fatture f INNER JOIN
 	clienti c ON f.id_cliente = c.numero_cliente GROUP BY c.regione_residenza
