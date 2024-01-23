@@ -31,7 +31,7 @@ public class EsercizioEvento {
         System.out.println("ricerca per id = 511639e1-18f3-4beb-9551-66a0c7d898d0: " + EventoDAO.getById("511639e1-18f3-4beb-9551-66a0c7d898d0"));
         System.out.println("ricerca per id = dbb64b2d-c7a9-4b56-a996-e6c8ba1fa49f: " + EventoDAO.getById("dbb64b2d-c7a9-4b56-a996-e6c8ba1fa49f"));
         System.out.println("ricerca per id = a067faa4-d136-4002-b5bf-5440e91f26f9: " + EventoDAO.getById("a067faa4-d136-4002-b5bf-5440e91f26f9"));
-        EventoDAO.delete("034093ca-ad0a-40df-84ff-ff57c4191d88");
+//        EventoDAO.delete("cfb15b83-028e-44af-85fd-2747dc3ce26e");
 
     }
 

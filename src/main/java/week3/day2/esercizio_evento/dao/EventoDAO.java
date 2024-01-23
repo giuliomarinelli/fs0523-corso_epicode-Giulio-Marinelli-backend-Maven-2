@@ -1,9 +1,9 @@
 package week3.day2.esercizio_evento.dao;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
 import week3.day2.esercizio_evento.entities.Evento;
 
 import java.util.UUID;

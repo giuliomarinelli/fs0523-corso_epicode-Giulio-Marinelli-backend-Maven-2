@@ -1,15 +1,15 @@
 package week3.day2.esercizio_evento.entities;
 
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 
-import javax.persistence.*;
+
+import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity
 @Table(name = "evento")
 public class Evento {
-    @Id @GeneratedValue //(strategy = GenerationType.UUID)
+    @Id @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private String titolo;

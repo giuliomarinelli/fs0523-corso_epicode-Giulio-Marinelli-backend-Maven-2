@@ -1,6 +1,6 @@
 package week3.day2.entities;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
