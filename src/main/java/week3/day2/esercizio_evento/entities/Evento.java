@@ -9,7 +9,7 @@ import java.util.UUID;
 @Entity
 @Table(name = "evento")
 public class Evento {
-    @Id @GeneratedValue
+    @Id @GeneratedValue //(strategy = GenerationType.UUID)
     private UUID id;
 
     private String titolo;
