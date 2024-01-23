@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="ok a parte l'ultimo extra">
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/UsaPersonaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/dao/PersonaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/entities/Mestiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/entities/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/EsercizioEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/dao/EventoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/entities/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/entities/TipoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3/day1/queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day1/queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/corso_epicode.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corso_epicode.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/resources&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EsercizioEvento.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.UsaPersonaDAO.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/resources",
+    "onboarding.tips.debug.path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\resources" />
@@ -183,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705938153973</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix">
+      <option name="closed" value="true" />
+      <created>1705939197300</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705939197300</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +218,17 @@
     <MESSAGE value="logger ok" />
     <MESSAGE value="logger working on project environment" />
     <MESSAGE value="ok a parte l'ultimo extra" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok a parte l'ultimo extra" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
