@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="modify">
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="fix jakarta Hibernate providing bug">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/DAO/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/entities/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/UsaEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/dao/EventoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/dao/LocationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/dao/PartecipazioneDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/dao/PersonaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Partecipazione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Sesso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/StatoPartecipazione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/TipoEvento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/corso_epicode.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corso_epicode.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3/day2/UsaPersonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day2/UsaPersonaDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week3/day2/dao/PersonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day2/dao/PersonaDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week3/day2/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day2/entities/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/EsercizioEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day2/esercizio_evento/EsercizioEvento.java" afterDir="false" />
@@ -43,25 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EsercizioEvento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsaPersonaDAO.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/resources&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EsercizioEvento.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.UsaClienteDAO.executor": "Run",
+    "Application.UsaEvento.executor": "Run",
+    "Application.UsaPersonaDAO.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/week3/day3",
+    "onboarding.tips.debug.path": "C:/Users/giuli/IdeaProjects/_corso_epicode_maven_2/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\java\week3\day3" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src\main\resources" />
       <recent name="C:\Users\giuli\IdeaProjects\_corso_epicode_maven_2\src" />
     </key>
@@ -216,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706025983370</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix jakarta Hibernate providing bug">
+      <option name="closed" value="true" />
+      <created>1706028330607</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706028330607</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,7 +261,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="complete" />
     <MESSAGE value="modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+    <MESSAGE value="fix jakarta Hibernate providing bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix jakarta Hibernate providing bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

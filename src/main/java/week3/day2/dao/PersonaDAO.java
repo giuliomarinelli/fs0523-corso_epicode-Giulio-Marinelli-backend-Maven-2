@@ -1,6 +1,6 @@
 package week3.day2.dao;
 
-import week3.day2.entities.Persona;
+import week3.day3.esercizio_relazioni.entities.Persona;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;

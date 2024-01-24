@@ -418,3 +418,208 @@
 2024-01-23 17:40:37,276 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2024-01-23 17:40:38,042 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-01-23 17:40:38,055 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@741ac284] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 09:30:00,152 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: magazzino]
+2024-01-24 09:30:00,275 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 09:30:00,330 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 09:30:00,930 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 09:30:00,937 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 09:30:00,937 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/magazzino]
+2024-01-24 09:30:00,938 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 09:30:00,938 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 09:30:00,946 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 09:30:01,636 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 09:30:03,487 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 09:30:03,519 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@57f8951a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 09:32:14,387 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: magazzino]
+2024-01-24 09:32:14,452 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 09:32:14,533 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 09:32:14,935 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 09:32:14,940 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 09:32:14,940 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/magazzino]
+2024-01-24 09:32:14,941 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 09:32:14,941 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 09:32:14,943 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 09:32:15,348 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 09:32:16,856 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 09:32:16,881 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59303963] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 09:40:29,195 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: magazzino]
+2024-01-24 09:40:29,266 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 09:40:29,343 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 09:40:29,721 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 09:40:29,725 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 09:40:29,725 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/magazzino]
+2024-01-24 09:40:29,726 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 09:40:29,726 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 09:40:29,729 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 09:40:30,131 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 09:40:31,914 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 09:40:31,940 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@87d9a01] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 09:44:06,355 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: magazzino]
+2024-01-24 09:44:06,439 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 09:44:06,532 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 09:44:06,854 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 09:44:06,859 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 09:44:06,859 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/magazzino]
+2024-01-24 09:44:06,859 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 09:44:06,859 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 09:44:06,863 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 09:44:07,248 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 09:44:08,839 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 09:44:08,860 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@385d819] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:30:59,529 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:30:59,656 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 15:30:59,779 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:31:00,499 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:31:00,503 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:31:00,503 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:31:00,503 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:31:00,503 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:31:00,506 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:31:01,313 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:31:01,867 INFO main org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:36:19,564 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:36:19,616 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 15:36:19,688 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:36:20,030 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:36:20,037 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:36:20,037 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:36:20,038 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:36:20,038 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:36:20,041 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:36:20,893 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:36:21,578 INFO main org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:42:45,000 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:42:45,067 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 15:42:45,152 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:42:45,475 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:42:45,479 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:42:45,480 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:42:45,480 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:42:45,480 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:42:45,482 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:42:45,837 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:42:48,375 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:42:48,396 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6de7778f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:42:48,831 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:42:48,836 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:42:48,869 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:42:48,869 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:42:48,869 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:42:48,870 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:42:48,870 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:42:48,870 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:42:48,989 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:42:49,303 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:42:49,304 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1cba0321] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:42:49,438 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:42:49,441 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:42:49,462 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:42:49,462 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:42:49,462 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:42:49,462 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:42:49,462 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:42:49,462 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:42:49,546 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:42:49,698 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:42:49,698 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@13cc31ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:42:49,790 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:42:49,793 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:42:49,810 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:42:49,811 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:42:49,811 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:42:49,811 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:42:49,811 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:42:49,811 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:42:49,958 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:42:50,127 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:42:50,128 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15e5246] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:44:13,932 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:44:13,986 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 15:44:14,063 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:44:14,509 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:44:14,518 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:44:14,518 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:44:14,518 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:44:14,518 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:44:14,524 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:44:15,372 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:44:17,945 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:44:17,993 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@26f0141] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:44:18,283 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:44:18,286 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:44:18,313 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:44:18,314 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:44:18,314 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:44:18,314 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:44:18,314 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:44:18,314 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:44:18,410 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:44:18,591 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:44:18,592 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7272ee51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:44:18,753 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:44:18,756 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:44:18,777 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:44:18,778 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:44:18,778 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:44:18,778 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:44:18,778 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:44:18,778 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:44:18,954 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:44:19,072 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:44:19,072 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40f9f60d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:44:19,153 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:44:19,155 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:44:19,172 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:44:19,173 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:44:19,173 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:44:19,173 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:44:19,173 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:44:19,173 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:44:19,262 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:44:19,415 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:44:19,416 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@344f9467] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:45:39,922 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:45:39,992 INFO main org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-01-24 15:45:40,114 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:45:40,570 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:45:40,574 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:45:40,574 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:45:40,574 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:45:40,574 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:45:40,580 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:45:41,124 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:45:43,431 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:45:43,458 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5657967b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:45:43,765 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:45:43,768 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:45:43,802 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:45:43,802 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:45:43,802 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:45:43,804 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:45:43,804 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:45:43,804 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:45:43,940 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:45:44,278 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:45:44,279 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5d1a859c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:45:44,481 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:45:44,489 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:45:44,519 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:45:44,520 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:45:44,520 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:45:44,520 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:45:44,520 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:45:44,521 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:45:44,700 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:45:45,019 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:45:45,021 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bfa5a13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-01-24 15:45:45,210 INFO main org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: gestioneeventi]
+2024-01-24 15:45:45,214 INFO main org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-24 15:45:45,240 WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-01-24 15:45:45,241 INFO main org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-01-24 15:45:45,241 INFO main org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2024-01-24 15:45:45,241 INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-01-24 15:45:45,241 INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-01-24 15:45:45,241 INFO main org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-01-24 15:45:45,397 WARN main org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-24 15:45:45,692 INFO main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-24 15:45:45,693 INFO main org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56f9de3b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
