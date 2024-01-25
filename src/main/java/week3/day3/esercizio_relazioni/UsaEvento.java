@@ -23,6 +23,7 @@ public class UsaEvento {
         Persona p = new Persona("Giovanni", "Storti", "abc@def.sfg", LocalDate.parse("2024-01-01"), Sesso.M);
         Partecipazione part1 = new Partecipazione(p, e, StatoPartecipazione.CONFERMATA);
         Location l = new Location("Piazza I Maggio", "Udine");
+       LocationDao.save(l);
        EventoDao.save(e);
     }
 }

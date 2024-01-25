@@ -14,6 +14,9 @@ public class Location {
     private String nome;
     private String citta;
 
+    @OneToMany
+    @JoinColumn(name = "evento_id")
+    private List<Evento> evento;
     @OneToMany(mappedBy = "location")
     private List<Partecipazione> partecipazione;
 
