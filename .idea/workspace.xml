@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="have to finish">
+    <list default="true" id="9327d4f5-eec2-4fd6-af67-07efa4c2f495" name="Changes" comment="finished in new project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/corso_epicode.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corso_epicode.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/UsaEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/UsaEvento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/day3/esercizio_relazioni/entities/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706107662120</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished in new project">
+      <option name="closed" value="true" />
+      <created>1706169675968</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706169675968</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,7 +256,8 @@
     <MESSAGE value="modify" />
     <MESSAGE value="fix jakarta Hibernate providing bug" />
     <MESSAGE value="have to finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="have to finish" />
+    <MESSAGE value="finished in new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished in new project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
